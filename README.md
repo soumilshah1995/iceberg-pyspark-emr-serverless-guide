@@ -73,7 +73,8 @@ df.show()
 ### Upload job on S3  and update ENV VAR
 
 ```
-aws s3 cp iceberg_job.py s3://soumilshah-dev-1995/jobs/hudi_job.py
+aws s3 cp job_iceberg.py s3://soumilshah-dev-1995/jobs/job_iceberg.py
+
 
 export APPLICATION_ID="XX"
 export BUCKET_HUDI="XX
