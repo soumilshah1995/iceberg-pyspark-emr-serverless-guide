@@ -15,7 +15,7 @@ iceberg-pyspark-emr-serverless-guide
 aws emr-serverless list-applications
 ```
 
-### Step 3: Create iceberg_job.py 
+### Step 3: Create job_iceberg.py 
 ```
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
